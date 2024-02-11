@@ -75,10 +75,10 @@ export default function Message(userId) {
                 getUserMessages(userId.props);
             }
         });
-    }, [userId]);
+    }, [userId, chatList]);
 
     async function sendMessage() {
-        if (userId.userId == "none") {
+        if (userId.userId === "none") {
             console.log("do nothing");
         } else {
             await axios

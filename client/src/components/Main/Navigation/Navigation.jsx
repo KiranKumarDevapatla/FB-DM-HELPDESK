@@ -9,7 +9,7 @@ import facebookLogout from '../../facebookSDK/facebookLogout';
 export default function Navigation() {
     return (
         <div className='navbar'>
-            <img className="nav_logo" src={facebook} />
+            <img className="nav_logo" src={facebook} alt=""/>
             <ul className='nav-list'>
                 <li className="nav-item"><img src={inbox_icon} alt="inbox" className='inbox' /></li>
                 <li className="nav-item"><img src={people_icon} alt="people" className='people' /></li>

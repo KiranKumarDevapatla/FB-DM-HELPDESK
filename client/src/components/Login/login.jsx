@@ -10,7 +10,7 @@ export default function Login() {
             <table className='login-button' onClick={facebookLogin}>
                 <tbody>
                     <tr>
-                        <td><img className='logo' src={logo}></img></td>
+                        <td><img className='logo' src={logo} alt=" "></img></td>
                         <td><div className='button-text'>Login with Facebook</div></td></tr>
                 </tbody>
             </table>
